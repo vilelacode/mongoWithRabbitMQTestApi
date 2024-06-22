@@ -4,7 +4,7 @@ Esta aplicação Java é projetada para gerenciar a geração de pedidos, utiliz
 
 ## Requisitos
 
-- Java 11+
+- Java 17+
 - MongoDB 4.0+
 - RabbitMQ 3.8+
 
@@ -38,7 +38,7 @@ spring.rabbitmq.port=5672
 spring.rabbitmq.username=admin
 spring.rabbitmq.password=admin
 
-pom.xml
+# pom.xml
 <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
